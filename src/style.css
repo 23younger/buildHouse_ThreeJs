@@ -69,10 +69,12 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
+  background: url("./assets/sky.webp") no-repeat center;
+  background-size: cover;
 }
 
 @media (prefers-color-scheme: light) {
